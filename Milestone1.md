@@ -1,5 +1,7 @@
 # Milestone 1: Project Proposal
-#### Agustín Krebs, Axel Sjöberg, Alex Rusnak
+#### Agustín Krebs (agustin.krebscastro@epfl.ch)
+#### Axel Sjöberg (erikaxelwilhelm.sjoberg@epfl.ch)
+#### Alex Rusnak (alexander.rusnak@epfl.ch)
 
 In this project, we would like to know if a machine is capable of generating music associated with certain human-perceived emotions. State of the art machines can learn particular patterns of notes corresponding to certain styles, but very little research has been done about whether they can consistently output more abstract musical features like emotional valence. We want to know if training a machine learning model with music that has a particular emotional valence will lead to generating music with the corresponding emotions. We plan to generate the emotional labels through surveying people. 
 
@@ -17,3 +19,9 @@ The two approaches widely considered state of the art for sequential generation 
 A confounding factor when assessing the “emotions” tied to a song is the cultural factor. As music is a mental phenomenon, the listeners own experience regarding timing and modes will have a huge impact on how the music is perceived. This is important to account for in the annotation of the dataset, when we test our model on people and when we choose our data.
 
 As we progress in our project, the places where we most would like guidance are: Finding more/ the correct datasets, information about available additional compute resources, suggestions for how to conduct the human test, and any thoughts about how to limit the pain points mentioned above.
+
+## References:
+- Payne, Christine. "MuseNet." OpenAI, 25 Apr. 2019, openai.com/blog/musenet
+- Huang, C. Z. A., Vaswani, A., Uszkoreit, J., Shazeer, N., Simon, I., Hawthorne, C., ... & Eck, D. (2018). Music transformer. arXiv preprint arXiv:1809.04281.
+- Dong, H. W., Hsiao, W. Y., Yang, L. C., & Yang, Y. H. (2018, April). Musegan: Multi-track sequential generative adversarial networks for symbolic music generation and accompaniment. In Thirty-Second AAAI Conference on Artificial Intelligence.
+- Yang, L. C., Chou, S. Y., & Yang, Y. H. (2017). MidiNet: A convolutional generative adversarial network for symbolic-domain music generation. arXiv preprint arXiv:1703.10847.
